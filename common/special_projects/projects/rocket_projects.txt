@@ -904,10 +904,6 @@ sp_rockets_ground_to_air_missile = {
 		has_dlc = "Gotterdammerung"
 	}
 
-	special_project_parent = {
-		sp_rockets_ballistic_missile
-	}
-
 	available = { 
 		FROM = {
 			has_tech = experimental_rockets

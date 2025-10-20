@@ -55,5 +55,139 @@ country_event = {
             type = sam_missile_equipment_1
             amount = 1000
         }
+        
+        # Permanenter Bonus: Wasserfall-Luftverteidigungssystem
+        add_ideas = wasserfall_air_defense_system
+    }
+}
+
+# KAMPF-TEST EVENT - Luftschlacht-Simulation: event better_waterfall_missle.998
+country_event = {
+    id = better_waterfall_missle.998
+    title = "KAMPF-TEST: Luftschlacht Deutschland vs Frankreich"
+    desc = "Simuliert eine Luftschlacht: Deutschland bekommt Wasserfall-Raketen, Frankreich bekommt Jäger, CAS und Bomber und greift automatisch an."
+    picture = GFX_report_event_generic_scientist
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Kampf-Test starten!"
+        
+        # Deutschland: Wasserfall-Raketen und Raketenbasis
+        start_special_project = {
+            project = sp:sp_rockets_ground_to_air_missile
+        }
+        complete_special_project = {
+            project = sp:sp_rockets_ground_to_air_missile
+        }
+        set_technology = { experimental_rockets = 1 }
+        set_technology = { rocket_site = 1 }
+        set_technology = { radio_detection = 1 }
+        set_technology = { decimetric_radar = 1 }
+        set_technology = { improved_decimetric_radar = 1 }
+        set_technology = { centimetric_radar = 1 }
+        set_technology = { improved_centimetric_radar = 1 }
+        
+        # Baue Radar-Stationen und Luftbasen in Berlin und Ruhrgebiet
+        64 = {
+            add_building_construction = {
+                type = radar_station
+                level = 5
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = air_base
+                level = 10
+                instant_build = yes
+            }
+        }
+        42 = {
+            add_building_construction = {
+                type = radar_station
+                level = 5
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = air_base
+                level = 10
+                instant_build = yes
+            }
+        }
+        
+        # Baue 5 Raketenstartplätze in Berlin (Provinz 64) und Ruhrgebiet (Provinz 42)
+        64 = {
+            add_building_construction = {
+                type = rocket_site
+                level = 5
+                instant_build = yes
+            }
+        }
+        42 = {
+            add_building_construction = {
+                type = rocket_site
+                level = 5
+                instant_build = yes
+            }
+        }
+        
+        # Gib Deutschland 3000 Wasserfall-Raketen
+        add_equipment_to_stockpile = {
+            type = sam_missile_equipment_1
+            amount = 3000
+        }
+        
+        # Aktiviere Wasserfall-Luftverteidigungssystem
+        add_ideas = wasserfall_air_defense_system
+        
+        # Frankreich: Luftwaffe aufbauen
+        FRA = {
+            # Jäger
+            add_equipment_to_stockpile = {
+                type = small_plane_airframe_1
+                amount = 500
+            }
+            # CAS (MASSIV erhöht für Test!)
+            add_equipment_to_stockpile = {
+                type = small_plane_cas_airframe_1
+                amount = 1000
+            }
+            # Taktische Bomber
+            add_equipment_to_stockpile = {
+                type = medium_plane_airframe_1
+                amount = 500
+            }
+            # Strategische Bomber
+            add_equipment_to_stockpile = {
+                type = large_plane_airframe_0
+                amount = 400
+            }
+            
+            # Gib Frankreich Luftbasen
+            16 = { # Paris
+                add_building_construction = {
+                    type = air_base
+                    level = 10
+                    instant_build = yes
+                }
+            }
+        }
+        
+        # Erkläre Frankreich den Krieg (damit sie angreifen)
+        if = {
+            limit = {
+                NOT = { has_war_with = FRA }
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+        }
+        
+        # Setze Frankreich auf feindlich
+        FRA = {
+            set_country_flag = wasserfall_test_enemy
+        }
+        
+        custom_effect_tooltip = wasserfall_kampftest_tt
     }
 }

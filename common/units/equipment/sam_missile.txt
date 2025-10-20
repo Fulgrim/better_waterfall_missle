@@ -14,7 +14,7 @@ equipments = {
             sam_mission
         }
         
-        reliability = 0.75
+        reliability = 0.8
         naval_strike_attack = 1.5
         naval_strike_targetting = 0.6
         lend_lease_cost = 1.5
@@ -26,17 +26,27 @@ equipments = {
     }
 
     sam_missile_equipment_1 = {
-        year = 1936
+        year = 1939
         archetype = sam_missile_equipment
         is_buildable = yes
         one_use_only = yes
         sprite = missile_default
-        air_range = 600
-        maximum_speed = 4800
-        air_agility = 12
-        air_bombing = 0
-        air_attack = 0.65
-        build_cost_ic = 18
+        air_map_icon_frame = 22
+        
+        # Realistische Werte basierend auf historischen Daten
+        air_range = 800                # 48 km historisch, 800 km für Gameplay
+        maximum_speed = 2880           # 800 m/s = 2880 km/h (historisch)
+        air_agility = 250              # Sehr wendig (adaptives Lenksystem)
+        
+        # Kampfwerte - wirkt gegen ALLE Flugzeugtypen
+        air_attack = 25             # Extrem hoch (gegen Jäger)
+        air_defence = 100.0            # Gegen feindliche Jäger
+        air_superiority = 1000         # Massive Luftüberlegenheit (200x Vanilla!)
+        air_bombing = 0.1              # Minimal (SAMs bombardieren nicht)
+        air_ground_attack = 0.1        # Minimal (SAMs greifen Boden nicht an)
+        
+        # Schnelle, günstige Produktion (Alternative zur Flak)
+        build_cost_ic = 12
         resources = {
             steel = 1
             aluminium = 1
