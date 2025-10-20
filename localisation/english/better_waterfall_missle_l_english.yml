@@ -1,0 +1,4 @@
+﻿l_english:
+ better_waterfall_missle.1.t: "The Sky Belongs to Us!"
+ better_waterfall_missle.1.d: "The development of the 'Wasserfall' missile marks a turning point in the history of air defense. Engineers from [Root.GetNameDef] have pushed the boundaries of conventional technology and created a new weapon capable of striking enemy bomber formations from the sky with deadly precision.\n\nInitial tests show promising results – range, accuracy, and destructive power surpass all previous systems. The weapon is ready for mass production – a decisive advantage for [Root.GetNameDef] in the air war."
+ better_waterfall_missle.1.a: "Ready to launch!"
