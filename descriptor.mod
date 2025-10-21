@@ -1,6 +1,8 @@
 version="1.0"
 tags={
+	"Gameplay"
+	"Military"
 	"Technologies"
 }
-name="Better Waterfall Missle"
+name="Enhanced Waterfall Missile"
 supported_version="1.16.9"

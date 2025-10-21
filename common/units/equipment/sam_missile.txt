@@ -39,9 +39,9 @@ equipments = {
         air_agility = 250              # Sehr wendig (adaptives Lenksystem)
         
         # Kampfwerte - wirkt gegen ALLE Flugzeugtypen
-        air_attack = 25             # Extrem hoch (gegen Jäger)
-        air_defence = 100.0            # Gegen feindliche Jäger
-        air_superiority = 1000         # Massive Luftüberlegenheit (200x Vanilla!)
+        air_attack = 10               # Sehr hoch (gegen Bomber/CAS)
+        air_defence = 25               # Moderat (SAMs sind stationär)
+        air_superiority = 100          # Moderat - lässt Jäger kämpfen
         air_bombing = 0.1              # Minimal (SAMs bombardieren nicht)
         air_ground_attack = 0.1        # Minimal (SAMs greifen Boden nicht an)
         

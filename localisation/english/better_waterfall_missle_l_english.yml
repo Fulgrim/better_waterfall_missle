@@ -1,11 +1,11 @@
 l_english:
- better_waterfall_missle.1.t: "The Sky Belongs to Us!"
- better_waterfall_missle.1.d: "The development of the 'Wasserfall' missile marks a turning point in the history of air defense. Engineers from [Root.GetNameDef] have pushed the boundaries of conventional technology and created a new weapon capable of striking enemy bomber formations from the sky with deadly precision.\n\nInitial tests show promising results – range, accuracy, and destructive power surpass all previous systems. The weapon is ready for mass production – a decisive advantage for [Root.GetNameDef] in the air war."
- better_waterfall_missle.1.a: "Ready to launch!"
+ enhanced_waterfall_missile.1.t: "The Sky Belongs to Us!"
+ enhanced_waterfall_missile.1.d: "The development of the 'Wasserfall' missile marks a turning point in the history of air defense. Engineers from [Root.GetNameDef] have pushed the boundaries of conventional technology and created a new weapon capable of striking enemy bomber formations from the sky with deadly precision.\n\nInitial tests show promising results – range, accuracy, and destructive power surpass all previous systems. The weapon is ready for mass production – a decisive advantage for [Root.GetNameDef] in the air war."
+ enhanced_waterfall_missile.1.a: "Ready to launch!"
 
- better_waterfall_missle.1.t:0 "Wasserfall Project Completed"
- better_waterfall_missle.1.d:0 "Our scientists have successfully completed the Wasserfall project! The first operational surface-to-air missile is now available."
- better_waterfall_missle.1.a:0 "Excellent!"
+ enhanced_waterfall_missile.1.t:0 "Wasserfall Project Completed"
+ enhanced_waterfall_missile.1.d:0 "Our scientists have successfully completed the Wasserfall project! The first operational surface-to-air missile is now available."
+ enhanced_waterfall_missile.1.a:0 "Excellent!"
  wasserfall_test_tt:0 "Test scenario is being prepared..."
  
  sam_missile_equipment:0 "Wasserfall Missile"

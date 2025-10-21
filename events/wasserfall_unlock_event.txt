@@ -1,15 +1,15 @@
-add_namespace = better_waterfall_missle
+add_namespace = enhanced_waterfall_missile
 
 country_event = {
-    id = better_waterfall_missle.1
-    title = better_waterfall_missle.1.t
-    desc = better_waterfall_missle.1.d
+    id = enhanced_waterfall_missile.1
+    title = enhanced_waterfall_missile.1.t
+    desc = enhanced_waterfall_missile.1.d
     picture = GFX_report_event_generic_scientist
 
     is_triggered_only = yes
 
     option = {
-        name = better_waterfall_missle.1.a
+        name = enhanced_waterfall_missile.1.a
         set_technology = { experimental_rockets = 1 }
         set_technology = { rocket_site = 1 }
         capital_scope = {
@@ -22,9 +22,9 @@ country_event = {
     }
 }
 
-# DEBUG EVENT - Zum Testen mit Konsole: event better_waterfall_missle.999
+# DEBUG EVENT - Zum Testen mit Konsole: event enhanced_waterfall_missile.999
 country_event = {
-    id = better_waterfall_missle.999
+    id = enhanced_waterfall_missile.999
     title = "DEBUG: Wasserfall-Projekt abschließen"
     desc = "Dieses Event schließt das Wasserfall-Projekt sofort ab und schaltet alle Technologien frei."
     picture = GFX_report_event_generic_scientist
@@ -61,9 +61,9 @@ country_event = {
     }
 }
 
-# KAMPF-TEST EVENT - Luftschlacht-Simulation: event better_waterfall_missle.998
+# KAMPF-TEST EVENT - Luftschlacht-Simulation: event enhanced_waterfall_missile.998
 country_event = {
-    id = better_waterfall_missle.998
+    id = enhanced_waterfall_missile.998
     title = "KAMPF-TEST: Luftschlacht Deutschland vs Frankreich"
     desc = "Simuliert eine Luftschlacht: Deutschland bekommt Wasserfall-Raketen, Frankreich bekommt Jäger, CAS und Bomber und greift automatisch an."
     picture = GFX_report_event_generic_scientist

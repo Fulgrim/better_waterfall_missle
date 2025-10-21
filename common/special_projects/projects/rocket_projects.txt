@@ -914,12 +914,12 @@ sp_rockets_ground_to_air_missile = {
 		base = 1
 	}
 	
-	prototype_time = sp_time.prototype.medium	 
+	prototype_time = sp_time.prototype.small	 
 
 	project_output = {
 		country_effects = {
-			log = "MeinMod: Wasserfall-Project geladen!"
-			country_event = { id = better_waterfall_missle.1 }
+			log = "Enhanced Waterfall Missile: Wasserfall-Project completed!"
+			country_event = { id = enhanced_waterfall_missile.1 }
 			custom_effect_tooltip = {
 				localization_key = SP_ROCKET_SITE_REMINDER_PROJECT
 				PROJECT = sp_rockets_ground_to_air_missile

@@ -1,7 +1,7 @@
 l_german:
- better_waterfall_missle.1.t:0 "Der Himmel gehört uns!"
- better_waterfall_missle.1.d:0 "Die Entwicklung der \"Wasserfall\"-Rakete markiert einen Wendepunkt in der Geschichte der Luftverteidigung. Ingenieure aus [Root.GetNameDef] haben die konventionellen Grenzen überschritten und eine neue Waffe geschaffen, die feindliche Bomberverbände mit tödlicher Präzision vom Himmel holen kann.\n\nErste Tests zeigen vielversprechende Ergebnisse – Reichweite, Zielgenauigkeit und Zerstörungskraft übertreffen alle bisherigen Systeme. Die Waffe ist bereit für die Massenproduktion – ein entscheidender Vorteil für [Root.GetNameDef] im Luftkrieg."
- better_waterfall_missle.1.a:0 "Bereit zum Abschuss!"
+ enhanced_waterfall_missile.1.t:0 "Der Himmel gehört uns!"
+ enhanced_waterfall_missile.1.d:0 "Die Entwicklung der \"Wasserfall\"-Rakete markiert einen Wendepunkt in der Geschichte der Luftverteidigung. Ingenieure aus [Root.GetNameDef] haben die konventionellen Grenzen überschritten und eine neue Waffe geschaffen, die feindliche Bomberverbände mit tödlicher Präzision vom Himmel holen kann.\n\nErste Tests zeigen vielversprechende Ergebnisse – Reichweite, Zielgenauigkeit und Zerstörungskraft übertreffen alle bisherigen Systeme. Die Waffe ist bereit für die Massenproduktion – ein entscheidender Vorteil für [Root.GetNameDef] im Luftkrieg."
+ enhanced_waterfall_missile.1.a:0 "Bereit zum Abschuss!"
  
  wasserfall:0 "Wasserfall"
  wasserfall_plural:0 "Wasserfall-Raketen"
