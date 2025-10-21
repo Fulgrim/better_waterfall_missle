@@ -903,12 +903,6 @@ sp_rockets_ground_to_air_missile = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
-
-	available = { 
-		FROM = {
-			has_tech = experimental_rockets
-		}
-	}
 	
 	ai_will_do = {
 		base = 1
