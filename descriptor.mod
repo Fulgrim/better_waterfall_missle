@@ -5,4 +5,5 @@ tags={
 	"Technologies"
 }
 name="Enhanced Waterfall Missile"
-supported_version="1.16.9"
+picture="thumbnail.png"
+supported_version="1.16.10"
