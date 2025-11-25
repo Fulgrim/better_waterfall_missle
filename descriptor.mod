@@ -6,5 +6,5 @@ tags={
 }
 name="Enhanced Waterfall Missile"
 picture="thumbnail.png"
-supported_version="1.16.10"
+supported_version="1.17.0"
 remote_file_id="3591178325"

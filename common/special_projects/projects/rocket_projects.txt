@@ -882,7 +882,7 @@ sp_rockets_long_range_ballistic_missile = {
 sp_rockets_ground_to_air_missile = {
 	specialization = specialization_air 
 	breakthrough_cost = {
-		specialization_air = 2
+		specialization_air = 1
 	}
 	
 	icon = GFX_sp_rockets_surface_to_air_missiles 
@@ -902,6 +902,11 @@ sp_rockets_ground_to_air_missile = {
 
 	allowed = {
 		has_dlc = "Gotterdammerung"
+	}
+
+	# Keine Voraussetzungen - sofort verfügbar!
+	available = {
+		always = yes
 	}
 	
 	ai_will_do = {

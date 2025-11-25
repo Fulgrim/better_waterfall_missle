@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  enhanced_waterfall_missile.1.t: "The Sky Belongs to Us!"
  enhanced_waterfall_missile.1.d: "The development of the 'Wasserfall' missile marks a turning point in the history of air defense. Engineers from [Root.GetNameDef] have pushed the boundaries of conventional technology and created a new weapon capable of striking enemy bomber formations from the sky with deadly precision.\n\nInitial tests show promising results – range, accuracy, and destructive power surpass all previous systems. The weapon is ready for mass production – a decisive advantage for [Root.GetNameDef] in the air war."
  enhanced_waterfall_missile.1.a: "Ready to launch!"
@@ -20,3 +20,6 @@ l_english:
  
  wasserfall_air_defense_system:0 "Wasserfall Air Defense System"
  wasserfall_air_defense_system_desc:0 "The Wasserfall missile system provides revolutionary air defense against enemy bombers and fighters over our homeland. Ground-controlled missiles reach altitudes up to 18,000 meters and can intercept bomber formations with deadly precision."
+ 
+ sp_rockets_ground_to_air_missile:0 "Ground-to-Air Missiles"
+ sp_rockets_ground_to_air_missile_desc:0 "The Wasserfall project develops a revolutionary surface-to-air missile system capable of intercepting high-altitude bombers. This ground-controlled rocket reaches 18,000 meters and provides effective homeland defense.\n\n§YNo prerequisites required - can be researched immediately!§!"
